@@ -1,0 +1,15 @@
+item_id,item_name,category,daily_rate,purchased
+A-101,19 ft scissor lift,lifts,90,2021-03-15
+A-102,19 ft scissor lift,lifts,90,2021-03-15
+A-104,19 ft scissor lift,lifts,90,2022-08-01
+A-110,26 ft scissor lift,lifts,125,2023-02-10
+A-120,45 ft articulating boom lift,lifts,310,2020-05-20
+A-121,60 ft telescopic boom lift,lifts,420,2024-04-04
+B-201,"Mini excavator, 3.5 ton",earthmoving,285,2022-01-12
+B-202,"Mini excavator, 3.5 ton",earthmoving,285,2023-06-30
+B-210,Skid steer loader,earthmoving,240,2021-10-01
+C-301,20 kW towable generator,power,110,2019-04-22
+C-302,45 kW towable generator,power,175,2022-09-15
+C-310,LED light tower,power,85,2023-03-03
+D-401,"Concrete mixer, 9 cu ft",concrete,65,2018-07-07
+D-402,Walk-behind plate compactor,concrete,55,2020-02-14

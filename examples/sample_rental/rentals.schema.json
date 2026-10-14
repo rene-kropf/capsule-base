@@ -1,0 +1,22 @@
+{
+  "description": "One row per rental: one unit out to one customer for a date range. Open rentals have no returned_date, days or amount yet.",
+  "key_field": "rental_id",
+  "title_field": "item_name",
+  "updated_field": "last_modified",
+  "mode": "upsert",
+  "fields": {
+    "rental_id":     {"type": "text",      "description": "Rental number, e.g. R-2291"},
+    "customer_id":   {"type": "text",      "description": "Joins to customers.customer_id"},
+    "customer_name": {"type": "text"},
+    "item_id":       {"type": "text",      "description": "Asset tag. Joins to items.item_id"},
+    "item_name":     {"type": "text"},
+    "category":      {"type": "text",      "description": "Item category at the time of rental"},
+    "out_date":      {"type": "date",      "description": "Day the unit left the yard"},
+    "due_date":      {"type": "date",      "description": "Day the unit is due back"},
+    "returned_date": {"type": "date",      "description": "Day it came back. Empty while still out."},
+    "days":          {"type": "integer",   "description": "Days billed"},
+    "amount":        {"type": "numeric",   "description": "Billed amount in USD before tax, including damage, cleaning and fuel charges"},
+    "damage_notes":  {"type": "text",      "description": "Check-in notes: damage, leaks, cleaning, late returns"},
+    "last_modified": {"type": "timestamp", "description": "When the rental record last changed"}
+  }
+}

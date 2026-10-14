@@ -1,0 +1,13 @@
+customer_id,name,type,city,account_opened,credit_limit,notes
+C-101,Cedar Flats Paving,contractor,Riverton,2019-04-02,15000,Pays on net 30. Mostly lifts and compactors.
+C-102,Morrow Roofing,contractor,Fairview,2020-06-18,10000,
+C-103,Blue Heron Landscaping,contractor,Oak Grove,2021-02-11,8000,Seasonal: busy March to October.
+C-104,Delgado Concrete,contractor,Lakeside,2018-09-30,20000,Requires COI on file before each rental.
+C-105,Northgate Fellowship,event,Riverton,2022-05-01,3000,Summer revival tent meeting every July.
+C-106,Pike Street Builders,contractor,Millbrook,2023-01-09,25000,
+C-107,Ridgeline Electric,contractor,Fairview,2020-11-23,12000,
+C-108,Sandoval Homes,contractor,Lakeside,2024-03-14,15000,New account 2024. Ask for PO numbers.
+C-109,Tall Grass Music Festival,event,Millbrook,2021-07-30,6000,Generators and light towers every September.
+C-110,Wren & Daughters Masonry,contractor,Riverton,2017-05-05,10000,
+C-111,J. Alvarez,homeowner,Riverton,2026-02-20,1000,Weekend rentals.
+C-112,K. Whitfield,homeowner,Oak Grove,2025-08-08,1000,

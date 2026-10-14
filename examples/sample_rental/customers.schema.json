@@ -1,0 +1,15 @@
+{
+  "description": "One row per customer account of a made-up equipment rental company.",
+  "key_field": "customer_id",
+  "title_field": "name",
+  "mode": "snapshot",
+  "fields": {
+    "customer_id":    {"type": "text",    "description": "Account number, e.g. C-101"},
+    "name":           {"type": "text",    "description": "Business or person renting"},
+    "type":           {"type": "text",    "description": "contractor, event (churches, festivals, venues) or homeowner"},
+    "city":           {"type": "text"},
+    "account_opened": {"type": "date"},
+    "credit_limit":   {"type": "numeric", "description": "Credit limit in USD"},
+    "notes":          {"type": "text",    "description": "Counter staff notes about the account"}
+  }
+}

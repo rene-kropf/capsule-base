@@ -1,0 +1,13 @@
+{
+  "description": "One row per piece of rental equipment in the fleet.",
+  "key_field": "item_id",
+  "title_field": "item_name",
+  "mode": "snapshot",
+  "fields": {
+    "item_id":    {"type": "text",    "description": "Asset tag, e.g. A-104. Two units can share an item_name."},
+    "item_name":  {"type": "text",    "description": "Model as listed for rent, e.g. 19 ft scissor lift"},
+    "category":   {"type": "text",    "description": "lifts, earthmoving, power or concrete"},
+    "daily_rate": {"type": "numeric", "description": "Rental rate per day in USD"},
+    "purchased":  {"type": "date",    "description": "Date the unit joined the fleet"}
+  }
+}
