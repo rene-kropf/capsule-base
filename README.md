@@ -1,9 +1,8 @@
 <!--
-README.md v0.3 — 2026-10-14
+README.md v0.4 — 2026-10-18
 Changelog:
+- v0.4 (2026-10-18): "at a flat rate" off (Rene: no flat rates); installs are priced per business after a short paid discovery.
 - v0.3 (2026-10-14): Spec-only publish (Rene): three-sentence intro, privacy up front, spec link; the quick start returns with the code.
-- v0.2 (2026-10-14): Links follow the flat publish layout (no docs/ folder).
-- v0.1 (2026-10-14): First draft for the public repo.
 -->
 
 # Capsule Base
@@ -73,7 +72,7 @@ A small mini or a VPS with 4 GB of RAM, on macOS or Debian/Ubuntu Linux: Postgre
 
 ## Want it built?
 
-[Emmaus Development](https://emmausdev.com) builds this for businesses on their own hardware at a flat rate, with a Care Plan that keeps it running as their systems change. Tend8, a paid add-on built on Capsule, adds a morning brief, a live board and alerts; it's also at [emmausdev.com](https://emmausdev.com).
+[Emmaus Development](https://emmausdev.com) builds this for businesses on their own hardware, priced per business after a short paid discovery, with a Care Plan that keeps it running as their systems change. Tend8, a paid add-on built on Capsule, adds a morning brief, a live board and alerts; it's also at [emmausdev.com](https://emmausdev.com).
 
 The case for talking to your data instead of clicking through it is made at book length in [The Last Interface](https://last-interface.com).
 
